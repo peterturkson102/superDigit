@@ -14,7 +14,7 @@ class Result {
          String p =n;
          
          while(p.length()*k>1){
-             int sum = 0;
+             long sum = 0;
              for(int i = 0;i<p.length();i++){
                  sum+= Character.getNumericValue(p.charAt(i)) ;
              }
